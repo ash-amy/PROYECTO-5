@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+
+.banner {
+  color: black;
+  padding: 70px;
+  text-align: center;
+  margin: 0;
+  display: block;
+  height: 570px;
+  box-shadow: 0 0 20px 10px rgba(104, 104, 104, 0.3);
+}
+
+.banner h1 {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 70px;
+  margin: 0;
+}
+
+.banner p {
+  font-family: "Comic Neue", cursive;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.botones {
+  font-family: "Comic Neue", cursive;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.banner button {
+  background-color: #ba48da;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.banner button:hover {
+  background-color: #a036c1;
+  transform: scale(1.05);
+  color: white;
+  background-color: #a036c1;
+  border: #a036c1 2px solid;
+  transition: all 0.3s ease;
+  animation: move 15s timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes salto {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.banner button {
+  animation: salto 1s ease-in-out infinite;
+}
+
+.introduccion {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  padding: 10px;
+  width: 100%;
+  gap: 20px; /* opcional: separación entre los hijos */
+}
+
+
+.bienvenida {
+  width: 60%;
+  border: 3px solid #ff6f61;
+  background-color: #f7a29b;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  box-shadow: 9px 8px 21px 2px rgba(255, 111, 97, 0.32);
+  -webkit-box-shadow: 9px 8px 21px 2px rgba(255, 111, 97, 0.32);
+  -moz-box-shadow: 9px 8px 21px 2px rgba(255, 111, 97, 0.32);
+}
+
+.bienvenida h3 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.bienvenida p {
+  font-family: "Comic Neue", cursive;;
+  font-size: 27px;
+  text-align: left;
+}
+
+.container_imagen {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.niños-programación {
+  width: 40%;
+  height: auto;
+  border-radius: 40px;
+  margin: 10px;
+  box-shadow: 9px 8px 21px 2px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 9px 8px 21px 2px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 9px 8px 21px 2px rgba(0, 0, 0, 0.27);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.carrusel {
+  width: 95%;
+  height: 750px;
+  object-fit: cover;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 750px;
+  border-radius: 10px;
+}

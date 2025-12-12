@@ -1,0 +1,43 @@
+{
+  "equipo": [
+    {
+      "id": 1,
+      "nombre_completo": "Ashley Perales",
+      "rol": "Líder del equipo",
+      "especialidad": "Diseño web y gestión de proyectos",
+      "descripcion": "Apasionada por la tecnología y la innovación educativa. Le encanta trabajar en equipo y liderar proyectos que inspiren a otros.",
+      "foto": "../public/Avatar.png",
+      "redes_sociales": {
+        "instagram": "https://www.instagram.com/usuario",
+        "linkedin": "https://www.linkedin.com/in/usuario",
+        "github": "https://github.com/usuario"
+      }
+    },
+    {
+      "id": 2,
+      "nombre_completo": "Hannah ____",
+      "rol": "Desarrolladora Frontend",
+      "especialidad": "HTML, CSS, JavaScript y experiencia de usuario",
+      "descripcion": "Le apasiona crear interfaces atractivas y funcionales que conecten con las personas y hagan que aprender sea divertido.",
+      "foto": "../public/Avatar.png",
+      "redes_sociales": {
+        "instagram": "https://www.instagram.com/usuario",
+        "linkedin": "https://www.linkedin.com/in/usuario",
+        "github": "https://github.com/usuario"
+      }
+    },
+    {
+      "id": 3,
+      "nombre_completo": "Melany ____",
+      "rol": "Desarrolladora Backend",
+      "especialidad": "Bases de datos y lógica de programación",
+      "descripcion": "Disfruta resolviendo problemas y creando soluciones tecnológicas que faciliten el aprendizaje y la comunicación.",
+      "foto": "../public/Avatar.png",
+      "redes_sociales": {
+        "instagram": "https://www.instagram.com/usuario",
+        "linkedin": "https://www.linkedin.com/in/usuario",
+        "github": "https://github.com/usuario"
+      }
+    }
+  ]
+}

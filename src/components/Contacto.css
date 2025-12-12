@@ -1,0 +1,51 @@
+.contactanos {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  margin: 10px auto;
+  border: 3px solid #4a90e2;
+  border-radius: 30px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: #4a90e2 2px solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.network {
+  width: auto;
+  height: auto;
+}
+
+.caja {
+  border: #4a90e2 2px solid;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.caja i {
+  font-size: 30px;
+  color: #4a90e2;
+}
+
+.caja li {
+  list-style: outside;
+  margin-left: 10px;
+}
