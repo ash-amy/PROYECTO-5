@@ -16,6 +16,7 @@ import Testimonios from "./components/Testimonios";
 import Footer from "./components/Footer";
 import Filter from "./components/Filter";
 import RutaPrivada from "./components/RutaPrivada";
+import Banner from "./components/Banner"
 
 //Iniciar sesión y registrarse
 import Login from "./components/Login";
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <Banner />
         <Navbar />
         <Routes>
           <Route path="/" element={<Inicio />} />

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./Inicio.css";
 import { useState } from "react";
 import Modal from "./Modal";
+import Matricula from "./Matricula"
 
 function Inicio() {
   const [open, setOpen] = useState(false);
@@ -103,8 +104,8 @@ function Inicio() {
         </div>
       </section>
 
-      <section>
-        <h1>Matricúlate / Reserva tu matrícula</h1>
+      <section className="p-4">
+        <Matricula />
       </section>
     </>
   );
